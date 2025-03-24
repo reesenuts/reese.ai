@@ -1,0 +1,23 @@
+/* filepath: c:\xampp\htdocs\reese.ai\src\app.css */
+@import 'tailwindcss';
+
+:root {
+  --sinister: #37352F;
+  --silk: #F3F3F3;
+  --placebo: #E7E7E7;
+  --bedrock: #9E9D9A;
+  --bleu: #2383E2;
+  --moon: #7D7C78;
+  --lynx: #F7F7F7;
+  --dash: #EBEBE8;
+}
+
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("/fonts/Helvetica.ttf") format("truetype"),
+       url("/fonts/Helvetica-Bold.ttf") format("truetype");
+}
+
+* {
+    font-family: 'Helvetica', sans-serif;
+}
