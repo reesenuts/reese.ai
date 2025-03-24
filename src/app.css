@@ -1,4 +1,6 @@
 /* filepath: c:\xampp\htdocs\reese.ai\src\app.css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import 'tailwindcss';
 
 :root {
@@ -13,11 +15,33 @@
 }
 
 @font-face {
-  font-family: "MyCustomFont";
+  font-family: "CustomFont";
   src: url("/fonts/Helvetica.ttf") format("truetype"),
        url("/fonts/Helvetica-Bold.ttf") format("truetype");
 }
 
-* {
+main {
     font-family: 'Helvetica', sans-serif;
+}
+
+html {
+  margin: 0px 50px 0px 50px;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 0;
+}
+::-webkit-scrollbar-track {
+  background: none;
+}
+::-webkit-scrollbar-thumb {
+  background: none;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: none;
 }
