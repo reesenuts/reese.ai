@@ -110,7 +110,7 @@
                 type="submit"
                 disabled={isLoading || !userInput.trim()} 
                 on:click={handleSubmit} >
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2383E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={userInput.trim() ? 'var(--bleu)' : 'var(--bedrock)'} stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" >
                     <path d="M5 12h14"/>
                     <path d="m12 5 7 7-7 7"/>
                 </svg>
