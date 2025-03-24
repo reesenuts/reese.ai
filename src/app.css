@@ -1,6 +1,5 @@
 /* filepath: c:\xampp\htdocs\reese.ai\src\app.css */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import 'tailwindcss';
 
 :root {
@@ -12,6 +11,8 @@
   --moon: #7D7C78;
   --lynx: #F7F7F7;
   --dash: #EBEBE8;
+  --graphite: #A5A4A1;
+  
 }
 
 @font-face {
@@ -28,7 +29,7 @@ html {
   margin: 0px 50px 0px 50px;
 }
 
-p {
+p, input, span {
   font-family: 'Inter', sans-serif;
 }
 
